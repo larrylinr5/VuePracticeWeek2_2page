@@ -11,6 +11,7 @@ const app = createApp({
         };
     },
     methods: {
+        //檢查是否為管理者
         checkAdmin() {
             axios
                 .post(`${this.url}/api/user/check`)
@@ -39,6 +40,7 @@ const app = createApp({
 
                 });
         },
+        //設定右邊產品細節
         checkDetail(product) {
             this.tempProduct = product;
         },
