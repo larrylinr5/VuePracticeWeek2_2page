@@ -36,7 +36,7 @@ const app = createApp({
                 })
                 // 失敗的結果
                 .catch((error) => {
-                    console.dir("error>>>", error);
+
                 });
         },
         checkDetail(product) {
